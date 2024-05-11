@@ -12,7 +12,7 @@
 <script setup>
 import { useAuth0 } from '@auth0/auth0-vue';
 const {user, isAuthenticated, logout} = useAuth0()
-console.log(isAuthenticated.value)
+
 const logoutt = () => {
   logout();
 }
